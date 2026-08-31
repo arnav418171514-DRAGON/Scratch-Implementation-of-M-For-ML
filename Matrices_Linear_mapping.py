@@ -7,7 +7,6 @@ w = [[0.5, -1.0],
 b = [0.1, -0.1, 0.3]
 """ 
 Every neuron looks at EVERYTHING: By calculating (Weight1 * Humidity) + (Weight2 * Temperature) + Bias, a single neuron creates a mathematical "opinion" about the combination of both inputs.
-
 It allows for Non-Linearity: A simple linear combination is just a straight line—it can't solve complex problems. However, we calculate this combination specifically so we can pass it through an Activation Function (like ReLU or Sigmoid) immediately after. The activation function takes this straight line and "bends" it.
 """
 y = []
